@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Remove old folders
 rm -r /publico /adm /ven /sec
 
