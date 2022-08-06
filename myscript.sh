@@ -28,15 +28,15 @@ groupadd GRP_VEN
 groupadd GRP_SEC
 
 #Create users
-useradd carlos -m -c "carlos" -s /bin/bash -p $(perl -e 'print crypt($ARGV[0], "password")' 'senha123') -G GRP_ADM
-useradd maria -m -c "carlos" -s /bin/bash -p $(perl -e 'print crypt($ARGV[0], "password")' 'senha123') -G GRP_ADM
-useradd joao -m -c "carlos" -s /bin/bash -p $(perl -e 'print crypt($ARGV[0], "password")' 'senha123') -G GRP_ADM
-useradd debora -m -c "carlos" -s /bin/bash -p $(perl -e 'print crypt($ARGV[0], "password")' 'senha123') -G GRP_VEN
-useradd sebastiana -m -c "carlos" -s /bin/bash -p $(perl -e 'print crypt($ARGV[0], "password")' 'senha123') -G GRP_VEN
-useradd roberto -m -c "carlos" -s /bin/bash -p $(perl -e 'print crypt($ARGV[0], "password")' 'senha123') -G GRP_VEN
-useradd josefina -m -c "carlos" -s /bin/bash -p $(perl -e 'print crypt($ARGV[0], "password")' 'senha123') -G GRP_SEC
-useradd amanda -m -c "carlos" -s /bin/bash -p $(perl -e 'print crypt($ARGV[0], "password")' 'senha123') -G GRP_SEC
-useradd rogerio -m -c "carlos" -s /bin/bash -p $(perl -e 'print crypt($ARGV[0], "password")' 'senha123') -G GRP_SEC
+useradd carlos -m -c "Carlos Silva" -s /bin/bash -p $(perl -e 'print crypt($ARGV[0], "password")' 'senha123') -G GRP_ADM
+useradd maria -m -c "Maria Silva" -s /bin/bash -p $(perl -e 'print crypt($ARGV[0], "password")' 'senha123') -G GRP_ADM
+useradd joao -m -c "João Silva" -s /bin/bash -p $(perl -e 'print crypt($ARGV[0], "password")' 'senha123') -G GRP_ADM
+useradd debora -m -c "Debora Silva" -s /bin/bash -p $(perl -e 'print crypt($ARGV[0], "password")' 'senha123') -G GRP_VEN
+useradd sebastiana -m -c "Sebastiana Silva" -s /bin/bash -p $(perl -e 'print crypt($ARGV[0], "password")' 'senha123') -G GRP_VEN
+useradd roberto -m -c "Roberto Silva" -s /bin/bash -p $(perl -e 'print crypt($ARGV[0], "password")' 'senha123') -G GRP_VEN
+useradd josefina -m -c "Josefina Silva" -s /bin/bash -p $(perl -e 'print crypt($ARGV[0], "password")' 'senha123') -G GRP_SEC
+useradd amanda -m -c "Amanda Silva" -s /bin/bash -p $(perl -e 'print crypt($ARGV[0], "password")' 'senha123') -G GRP_SEC
+useradd rogerio -m -c "Rogerio Silva" -s /bin/bash -p $(perl -e 'print crypt($ARGV[0], "password")' 'senha123') -G GRP_SEC
 
 #Define folders owner and group
 chown root:GRP_ADM /adm
